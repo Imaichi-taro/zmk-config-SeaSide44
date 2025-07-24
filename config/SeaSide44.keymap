@@ -55,7 +55,7 @@
 &kp ESCAPE  &kp Q  &kp W           &kp E               &kp R                   &kp T                                                    &kp Y      &kp U             &kp I                   &kp O                &lt 3 P           &kp DEL
 &kp TAB     &kp A  &kp S           &kp D               &lt 1 F                 &kp G                                                    &kp H      &lt 1 J           &kp K                   &kp L                &kp MINUS         &kp LG(TAB)
 &mo 2       &kp Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V        &kp B                                                    &kp N      &mt LEFT_SHIFT M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &kp LEFT_CONTROL  &mo 2
-                   &kp LCTRL       &kp PRINTSCREEN     &mt LA(TAB) LANGUAGE_2  &lt 4 SPACE  &mt LEFT_SHIFT LANGUAGE_1    &kp BACKSPACE  &kp ENTER                    &lt 0 LEFT_WIN
+                   &kp LCTRL       &kp PRINTSCREEN     &mt LA(TAB) LANGUAGE_2  &lt 4 SPACE  &mt LEFT_SHIFT LANGUAGE_1    &kp BACKSPACE  &kp ENTER                    &kp LEFT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -99,10 +99,10 @@
 
         scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &trans           &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_RIGHT          &trans
             >;
         };
     };
