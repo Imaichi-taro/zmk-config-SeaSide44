@@ -55,7 +55,7 @@
 &kp ESCAPE  &kp Q  &kp W           &kp E               &kp R                   &kp T                                                    &kp Y      &kp U             &kp I                   &kp O                &lt 4 P           &kp DEL
 &kp TAB     &kp A  &kp S           &kp D               &lt 1 F                 &kp G                                                    &kp H      &lt 1 J           &kp K                   &kp L                &kp MINUS         &kp LG(TAB)
 &mo 2       &kp Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V        &kp B                                                    &kp N      &mt LEFT_SHIFT M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &kp LEFT_CONTROL  &mo 2
-                   &kp LCTRL       &kp PRINTSCREEN     &mt LG(TAB) LANGUAGE_1  &lt 3 SPACE  &mt LANGUAGE_2 LEFT_SHIFT    &kp BACKSPACE  &kp ENTER                    &lt 3 LEFT_WIN
+                   &kp LCTRL       &kp PRINTSCREEN     &mt LG(TAB) LANGUAGE_2  &lt 3 SPACE  &mt LEFT_SHIFT LANGUAGE_1    &kp BACKSPACE  &kp ENTER                    &lt 3 LEFT_WIN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -81,8 +81,8 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans          &kp UP_ARROW      &trans           &trans                     &trans    &mkp MB3         &msc MOVE_X(5)     &trans         &trans    &trans
-&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp END                    &mkp MB4  &mkp MB1         &msc MOVE_Y(10)    &mkp MB2       &mkp MB5  &trans
+&trans  &trans    &trans          &kp UP_ARROW      &trans           &trans                     &trans    &mkp MB3         &msc MOVE_X(0)     &trans         &trans    &trans
+&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp END                    &mkp MB4  &mkp MB1         &msc MOVE_Y(0)     &mkp MB2       &mkp MB5  &trans
 &trans  &trans    &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT   &trans                     &trans    &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &trans    &trans
                   &trans          &trans            &trans           &trans   &trans    &trans  &trans                     &trans
             >;
