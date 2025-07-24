@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp E         &kp R             &kp T                                      &kp Y      &kp U             &lt 5 I                 &kp O                &lt 6 P    &kp DEL
-&kp TAB     &kp A             &kp S      &kp D         &kp F             &kp G                                      &kp H      &kp J             &kp K                   &kp L                &kp MINUS  &kp ENTER
-&kp LSHFT   &mt LEFT_SHIFT Z  &kp X      &kp C         &kp V             &kp B                                      &kp N      &mt LEFT_SHIFT M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mkp MB2   &kp MINUS
-                              &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN TAB  &lt 1 SPACE  &lt 2 LANG2    &kp BACKSPACE  &kp ENTER                    &lt 5 ESCAPE
+&kp ESCAPE  &kp Q             &kp W      &kp E            &kp R             &kp T                                                             &kp Y      &kp U             &lt 5 I                 &kp O                &lt 6 P    &kp DEL
+&kp TAB     &kp A             &kp S      &kp D            &kp F             &kp G                                                             &kp H      &kp J             &kp K                   &kp L                &kp MINUS  &kp ENTER
+&kp LSHFT   &mt LEFT_SHIFT Z  &kp X      &kp C            &kp V             &kp B                                                             &kp N      &mt LEFT_SHIFT M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mkp MB2   &kp MINUS
+                              &kp LCTRL  &kp PRINTSCREEN  &mt LEFT_WIN TAB  &lt 4 SPACE  &mt LANG_ZENKAKUHANKAKU LEFT_SHIFT    &kp BACKSPACE  &kp ENTER                    &lt 5 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12                    &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &kp MINUS  &kp N0
-&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK     &kp SLASH  &kp N1
-&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE  &kp COLON  &kp N2
-                &trans  &trans   &trans   &trans   &trans    &trans  &kp NUMBER_0                &kp PERIOD
+&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12                    &kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS  &kp N0
+&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &kp COMMA      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp N1
+&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &kp PERIOD     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON  &kp N2
+                &trans  &trans   &trans   &trans   &trans    &trans  &kp NUMBER_0                 &kp PERIOD
             >;
         };
 
@@ -85,10 +85,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &mkp MB3  &msc MOVE_X(5)   &trans    &trans    &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans                    &mkp MB4  &mkp MB1  &msc MOVE_Y(10)  &mkp MB2  &mkp MB5  &kp N1
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans           &trans    &trans    &kp N2
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans              &trans
+&trans  &trans    &trans          &kp UP_ARROW    &trans           &trans                     &trans    &mkp MB3  &msc MOVE_X(5)   &trans    &trans    &kp N0
+&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                    &mkp MB4  &mkp MB1  &msc MOVE_Y(10)  &mkp MB2  &mkp MB5  &kp N1
+&trans  &trans    &trans          &trans          &trans           &trans                     &trans    &trans    &trans           &trans    &trans    &kp N2
+                  &trans          &trans          &trans           &trans   &trans    &trans  &trans              &trans
             >;
         };
 
